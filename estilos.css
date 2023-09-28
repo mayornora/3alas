@@ -1,0 +1,27 @@
+     
+:root{
+    --naranja: #f90;
+    --negro: #000;
+    --blanco: #fff;
+    --gis01: #333;
+    --gris02: #bbb;
+
+    --espacio: 16px
+
+}
+
+
+
+body{
+    background-color:var(--naranja) ;
+
+}
+h1{
+    color: var(--gis01);
+    background-color: var(--blanco);
+}
+p{
+    color: var(--blanco);
+    background-color: var(--gis01);
+    
+}
