@@ -25,3 +25,15 @@ p{
     background-color: var(--gis01);
     
 }
+.contenedor{
+    background-color: pink;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cabecera{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+}
+
