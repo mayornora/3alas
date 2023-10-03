@@ -3,7 +3,7 @@
     --naranja: #f90;
     --negro: #000;
     --blanco: #fff;
-    --gis01: #333;
+    --gris01: #333;
     --gris02: #bbb;
 
     --espacio: 16px
@@ -17,23 +17,11 @@ body{
 
 }
 h1{
-    color: var(--gis01);
+    color: var(--gris01);
     background-color: var(--blanco);
+    
 }
 p{
     color: var(--blanco);
-    background-color: var(--gis01);
-    
+    background-color: var(--gris01);
 }
-.contenedor{
-    background-color: pink;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.cabecera{
-    background-color: aquamarine;
-    display: flex;
-    justify-content: space-between;
-}
-
