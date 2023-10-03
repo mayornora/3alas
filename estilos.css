@@ -16,12 +16,24 @@ body{
     background-color:var(--naranja) ;
 
 }
-h1{
-    color: var(--gris01);
-    background-color: var(--blanco);
-    
+.contenedor{
+    background-color: pink;
+    /* limitamos el ancho a 1200 */
+    max-width: 1200px;
+    /* centramos el contenedor usando el mismo margen automático
+    a la derecha y a la izquierda */
+    margin-left: auto;
+    margin-right: auto;
+
 }
-p{
-    color: var(--blanco);
-    background-color: var(--gris01);
+.cabecera{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+
+}
+.contenido{
+    background-color: chocolate;
+    
+
 }
