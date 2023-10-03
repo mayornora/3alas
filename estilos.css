@@ -36,7 +36,40 @@ body{
 
 }
 .contenido{
-    background-color: chocolate;
+    background-color: var(--blanco);
+    border-radius: 8px;
+    border-right: 1px solid var(--negro);
+    border-right: 1px solid var(--negro);
+
+    padding-bottom: 40px;
     
+
+}
+.nav{
+    background-color: aqua;
+
+}
+.nav-lista{
+    background-color: purple;
+    /* saca los puntitos de la lista */
+    list-style-type: none;
+    padding-left: 0;
+
+}
+.nav-lista li{
+    background-color: violet;
+
+}
+.nav-lista a {
+    background-color:tomato ;
+    
+
+}
+.nav-lista a:hover{
+    background-color:maroon ;
+
+}
+.nav-form{
+    background-color: seashell;
 
 }
