@@ -13,11 +13,13 @@
 
 
 body{
-    background-color:var(--naranja) ;
+    background-color:var(--gris01) ;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(./imagenes/pattern.jpg);
 
 }
 .contenedor{
-    background-color: pink;
+    
     /* limitamos el ancho a 1200 */
     max-width: 1200px;
     /* centramos el contenedor usando el mismo margen automático
@@ -27,9 +29,10 @@ body{
 
 }
 .cabecera{
-    background-color: aqua;
+    
     display: flex;
     justify-content: space-between;
+    color: var(--naranja);
 
 }
 .contenido{
