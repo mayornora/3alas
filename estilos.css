@@ -54,14 +54,25 @@ body{
     /* saca los puntitos de la lista */
     list-style-type: none;
     padding-left: 0;
+    display: flex;
+    padding: 4px 8px;
+    text-align: center;
 
 }
 .nav-lista li{
+    flex-grow: 1;
     background-color: violet;
 
 }
 .nav-lista a {
     background-color:tomato ;
+    display: block;
+    text-decoration: none;
+    padding: 4px 8px;
+    text-align: center;
+    border-right: 1px solid;
+    font-weight: bold;
+    color: var(--blanco);
     
 
 }
@@ -70,6 +81,13 @@ body{
 
 }
 .nav-form{
+    min-width: 450px;
     background-color: seashell;
+    text-align: right;
+    background-color: blue;
 
+}
+.slider{
+    text-align: center;
+    margin-bottom: 40 px;
 }
