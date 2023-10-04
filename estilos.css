@@ -91,3 +91,21 @@ body{
     text-align: center;
     margin-bottom: 40 px;
 }
+.main{
+    background-color: aqua;
+    display: grid;
+    grid-area: 230px 1fr;
+    gap: 20px;
+}
+.categorias{
+    background-color:tomato;
+}
+.productos{
+    background-color: greenyellow;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.lampara{
+    background-color: rosybrown;
+}
