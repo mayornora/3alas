@@ -1,4 +1,4 @@
-     
+     /* variables css /custom properties */
 :root{
     --naranja: #f90;
     --negro: #000;
@@ -13,6 +13,7 @@
 
 
 body{
+    /* usamos la variable dentro de var() */
     background-color:var(--gris01) ;
     font-family: Arial, Helvetica, sans-serif;
     background-image: url(./imagenes/pattern.jpg);
@@ -39,9 +40,10 @@ body{
     background-color: var(--blanco);
     border-radius: 8px;
     border-right: 1px solid var(--negro);
-    border-right: 1px solid var(--negro);
-
+    border-left: 1px solid var(--negro);
+    
     padding-bottom: 40px;
+
     
 
 }
@@ -50,41 +52,45 @@ body{
 
 }
 .nav-lista{
-    background-color: purple;
+    background-color: var(--naranja);
     /* saca los puntitos de la lista */
     list-style-type: none;
+    /* sacamos el padding-left predeterminado */
     padding-left: 0;
     display: flex;
-    padding: 4px 8px;
     text-align: center;
+    align-items: center;
+    padding: 10px 16px;
 
 }
 .nav-lista li{
     flex-grow: 1;
-    background-color: violet;
+    background-color: var(--naranja);
 
 }
 .nav-lista a {
-    background-color:tomato ;
-    display: block;
+    /* los transformo en elementos de bloque */
+    display:block ;
     text-decoration: none;
     padding: 4px 8px;
     text-align: center;
-    border-right: 1px solid;
+    /* agrega el borde a la derecha */
+    border-right: 1px solid var(--blanco);
     font-weight: bold;
     color: var(--blanco);
     
-
 }
+    
+
 .nav-lista a:hover{
-    background-color:maroon ;
+    background-color:var(--gris01) ;
 
 }
 .nav-form{
     min-width: 450px;
-    background-color: seashell;
+    background-color: var(--naranja);
     text-align: right;
-    background-color: blue;
+    
 
 }
 .slider{
@@ -94,11 +100,16 @@ body{
 .main{
     background-color: aqua;
     display: grid;
-    grid-area: 230px 1fr;
+    grid-template-columns: 230px 1fr;
     gap: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: 40px;
+    
 }
 .categorias{
     background-color:tomato;
+    
 }
 .productos{
     background-color: greenyellow;
@@ -107,5 +118,23 @@ body{
     gap: 20px;
 }
 .lampara{
-    background-color: rosybrown;
+    background-color: indianred; 
 }
+.lampara-info{
+    display: flex;
+    gap: 20px;
+}
+.texto{
+    font-size: small;
+    font-weight: 200;
+    
+    display: flex;
+    gap: 20px;
+}
+
+.imagen{
+    text-align: right;
+}
+
+
+
