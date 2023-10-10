@@ -88,7 +88,6 @@ body{
 }
 .nav-form{
     min-width: 450px;
-    background-color: var(--naranja);
     text-align: right;
     
 
@@ -119,6 +118,10 @@ body{
 }
 .lampara{
     background-color: indianred; 
+}
+.lampara h2{
+    font-size: 20px;
+
 }
 .lampara-info{
     display: flex;
