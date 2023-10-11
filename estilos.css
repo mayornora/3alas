@@ -5,6 +5,7 @@
     --blanco: #fff;
     --gris01: #333;
     --gris02: #bbb;
+    --gris03:#ecececec;
 
     --espacio: 16px
 
@@ -17,6 +18,7 @@ body{
     background-color:var(--gris01) ;
     font-family: Arial, Helvetica, sans-serif;
     background-image: url(./imagenes/pattern.jpg);
+    margin-bottom: 0;
 
 }
 .contenedor{
@@ -42,7 +44,7 @@ body{
     border-right: 1px solid var(--negro);
     border-left: 1px solid var(--negro);
     
-    padding-bottom: 40px;
+  
 
     
 
@@ -175,12 +177,31 @@ body{
 .news-info span{
     padding-left: 70px;
 }
-.element{
+.elemento{
     font-weight: bolder;
     background: none;
     border: 0;
     /* para poner la manito al cursor si la pierde */
     cursor: pointer;
+}
+.footer{
+    background-color: var(--gris03);
+    border-top: 1px solid var(--gris01);
+    padding-right: 80px;
+    padding-left: 80px;
+}
+.paises{
+    
+    display: flex;
+    gap: 20px;
+    
+}
+
+.creditos{
+    text-align: right;
+    padding-bottom: 8px;
+    /* eliminar margen predeterminado del parrafo */
+    margin-bottom: 0;
 }
 
    
