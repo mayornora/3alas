@@ -29,6 +29,7 @@ body{
     a la derecha y a la izquierda */
     margin-left: auto;
     margin-right: auto;
+    
 
 }
 .cabecera{
@@ -202,6 +203,9 @@ body{
     padding-bottom: 8px;
     /* eliminar margen predeterminado del parrafo */
     margin-bottom: 0;
+}
+.bordes{
+    border-bottom: dashed 1px;
 }
 
    
